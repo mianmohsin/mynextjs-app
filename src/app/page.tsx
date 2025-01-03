@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div>
       <div style={{
-        backgroundImage: `url(../assets/hero-pattern.png)`,
+        background: `#FFFAF7`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat', 
@@ -153,13 +153,10 @@ export default function Home() {
         </div></div>
 
       <div style={{
-        backgroundImage: `url(../assets/hero-pattern.png)`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
+        background: `#FFFAF7`, 
         padding: '70px 0'
       }}>
-        <div className="container mx-auto p-8 bg-white-100 rounded-2xl border">
+        <div className="container mx-auto p-8 bg-white rounded-2xl border ">
           <div className="grid grid-cols-1 md:grid-cols-[30%_70%] gap-4 items-center">
             <div className='text-center md:text-left'>
               <span className='text-gray-500 text-xs uppercase'>Start Now</span>
