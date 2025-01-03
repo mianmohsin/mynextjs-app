@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import plusIcon from '../assets/plus-icon.png';
   
-export default function Accordion(props) {
+export default function Accordion(props:any) {
     return (
         <div className="mb-2">
             <button
